@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Fresh Prince of Bel Air Lyric Redesign</title>
+        </head>
+        <body><h1 id = "fresh"></h1>
+           <p> Now, this is a story all about how
+               <br>
+My <span id="noun"></span> got flipped-turned upside down
+<br>
+And I'd like to take a minute
+<br>
+Just sit right there
+<br>
+I'll tell you how I became the prince of a town called <span id="place"></span>
+<br>
+In <span id="secondplace"></span> born and raised
+<br>
+On the playground was where I spent most of my days
+<br>
+chillin' out, maxin', relaxin', all cool
+<br>
+And all shootin' some B-ball outside of the school
+<br>
+When a couple of guys who were up to no good
+<br>
+Started making trouble in my neighborhood
+<br>
+I got in one little fight and <span id="name"></span> got scared
+<br>
+She said, "<span id="dialogue"></span>"
+
+I whistled for a cab and when it came near
+<br>
+The license plate said, "<span id="phrase"></span> and it had <span id="noun"></span> in the mirror
+<br>
+If anything I could say that this cab was rare
+<br>
+But I thought "na forget it yo holmes to <span id="place"></span>"
+<br>
+I pulled up to the house about seven or eight
+<br>
+And I yelled to the cabbie, "<span id="dialogue"></span>"
+<br>
+I looked at my kingdom
+<br>
+I was finally there
+<br>
+To sit on my throne as the prince of <span id="place"></span> </p>
+
+<h2>Original version</h2>
+<p>Now, this is a story all about how
+    <br>
+My life got flipped-turned upside down
+<br>
+And I'd like to take a minute
+<br>
+Just sit right there
+<br>
+I'll tell you how I became the prince of a town called Bel-Air
+<br>
+In West Philadelphia born and raised
+<br>
+On the playground was where I spent most of my days
+<br>
+Chillin' out, maxin', relaxin', all cool
+<br>
+And all shootin' some b-ball outside of the school
+<br>
+When a couple of guys who were up to no good
+<br>
+Started making trouble in my neighborhood
+<br>
+I got in one little fight and my mom got scared
+<br>
+She said, "You're movin' with your auntie and uncle in Bel-Air"
+<br>
+I whistled for a cab and when it came near
+<br>
+The license plate said, "Fresh" and it had dice in the mirror
+<br>
+If anything I could say that this cab was rare
+<br>
+But I thought "Nah, forget it, yo, holmes to Bel Air"
+<br>
+I pulled up to the house about seven or eight
+<br>
+And I yelled to the cabbie, "Yo holmes, smell ya later"
+<br>
+I looked at my kingdom
+<br>
+I was finally there
+<br>
+To sit on my throne as the prince of Bel-Air </p>
+
+
+       
+     
+ 
+ 
+ </body>
+ <script>
+var noun = prompt("enter a present tense noun:");
+var noun2 = document.getElementById("noun");
+noun2.innerHTML = noun;
+
+var place = prompt("enter a place:");
+var place2 = document.getElementById("place");
+place2.innerHTML = place;
+
+var secondplace = prompt("enter another place:");
+var secondplace2 = document.getElementById("secondplace");
+secondplace2.innerHTML = secondplace;
+
+var name = prompt("name a person:");
+var name2 = document.getElementById("name");
+name2.innerHTML = name;
+
+var dialogue = prompt("enter something that someone would say");
+var dialogue2 = document.getElementById("dialogue");
+dialogue2.innerHTML = dialogue;
+
+var phrase = prompt("enter a phrase or one word");
+var phrase2 = document.getElementById("phrase"); 
+phrase2.innerHTML = phrase;
+ </script>
+ </html>
